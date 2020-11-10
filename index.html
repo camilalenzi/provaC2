@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Jogo das Cores</title>
+  <div id="area-cabecalho">
+
+    <div id="area-logo">
+      <h1> Jogo Adivinha a Cor </h1>
+      <img width="300px" src="img/game.gif">
+      <div class="inicio">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="index.css">
+      </div>
+
+      <br>
+      <h2>Insira umas das cores abaixo para ver se tu acerta!!!Ou não! </h2>
+
+</head>
+
+<body id="pagina">
+
+  <div>
+    <p id="cores"></p>
+    <p>
+      <input type="text" placeholder="Insira a cor, vamos ver se acerta: ">
+      <button id="button_resposta" onclick="jogo()">JOGAR</button>
+   
+
+    </p>
+
+    <script language="JavaScript">
+      function muda(n) {
+        document.getElementById(n).style.color = "#ffff00";
+      }
+    </script>
+    </head>
+  </div>
+
+
+  <script src="index.js"></script>
+  <br>
+
+  <img width="600px" src="img/cores.jpeg">
+
+  <div class="rodape">
+
+    <h5>Desenvolvido por @Camila Duque</h5>
+
+  </div>
+</body>
+
+</html>
